@@ -1,0 +1,187 @@
+/* Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Header Section */
+#banner-background {
+    background-image: url('bannerbackground.png');
+    background-repeat: repeat-x;
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+#banner {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Movie Title */
+#movie-title {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 3px 3px #999999;
+    margin-top: 20px;
+}
+
+/* Main Content */
+#content {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid gray;
+    padding: 20px;
+    border-radius: 0;
+}
+
+/* Left Section */
+#left-section {
+    width: 550px;
+}
+
+#rotten-rating-section {
+    background: url('rottenbackground.png') repeat-x; 
+    
+
+}
+
+#rotten-rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating-info {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.rating-score {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    margin: 10px 0;
+}
+
+.reviews-count {
+    font-size: 8px;
+    color: white;
+    display: flex;
+}
+
+
+/* Reviews Grid */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.review-box {
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 8px;
+}
+
+.review-icon {
+    margin-left: 5px;
+}
+
+blockquote {
+    margin: 0;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+cite {
+    display: block;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* General Overview Section */
+#general-overview {
+    width: 250px; 
+    background-color: #A2B964; 
+    padding: 10px; 
+    font-size: 8pt; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Definition List inside General Overview */
+#general-overview dl {
+    margin: 0;
+}
+
+/* Definition Term styling */
+#general-overview dt {
+    font-weight: bold;
+}
+
+/* General Overview Link */
+#general-overview a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+#general-overview a:hover {
+    text-decoration: underline;
+}
+
+/* Pagination */
+#pagination {
+    background-color: #A2B964;
+    text-align: left;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+ /* Flexbox layout for content */
+ #content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left section styling */
+#left-section {
+    width: 65%;
+}
+
+/* Right section (General Overview) styling */
+#general-overview {
+    width: 30%;
+    padding-left: 20px;
+}
+
+
+/* Footer */
+#Footer {
+    text-align: right;
+    
+}
+
+#Footer img {
+    text-align: right;
+}
+
+/* Reviews grid layout */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+
+
